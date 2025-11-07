@@ -56,7 +56,7 @@ python pre6_Cal_functionsimilarity.py
 python pre7_Cal_distance.py
 ```
 
-Note: Ensure that all necessary raw data files (e.g., Safegraph, Census data) are placed in the raw data folder before starting.
+Note: Ensure that all necessary raw data files (e.g., mobility data, Census data) are placed in the raw data folder before starting.
 
 ### 2. Run the Main Model
 After data preprocessing is complete, run the main simulation:
@@ -71,7 +71,7 @@ The simulation results will be saved to the Data&Result_US_SantaClaraCounty dire
 ├── Data&Result_US_SantaClaraCounty/
 │   └── (Used to store preprocessed data, intermediate results, and final model outputs)
 ├── raw data/
-│   └── (Used to store all raw data, e.g., Census CBG data, etc. Need to be download with the open link provided by U.S. government. Safegraph OD should be paid in official website.)
+│   └── (Used to store all raw data, e.g., Census CBG data, etc. Need to be download with the open link provided by U.S. government. OD data from large company should be paid in official website.)
 ├── utils/
 │   └── (Contains utility functions and helper scripts required for the model)
 │
