@@ -36,7 +36,7 @@ def weekday_od(chunk: pd.DataFrame) -> pd.DataFrame:
 
 def run(data_root: str):
     root  = pathlib.Path(data_root)
-    csvs  = sorted(glob.glob(str(root /"safegraph_od201901/Neighborhood_Patterns_US_One_Month_Sample-*2019-01-01.csv")))
+    csvs  = sorted(glob.glob(str(root /"od201901/Neighborhood_Patterns_US_One_Month_Sample-*2019-01-01.csv")))
     if not csvs: raise FileNotFoundError("no sample csv found")
 
     city_ids   = city_id_sets(root)
@@ -93,3 +93,4 @@ def run(data_root: str):
 
 if __name__ == "__main__":
     run(r'raw data')
+
